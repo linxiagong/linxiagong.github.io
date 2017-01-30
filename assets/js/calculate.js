@@ -30,6 +30,7 @@ function prime_counting(){
 	_number_of_user = document.getElementById('_number_of_user').value;
 	//alert(_number_of_user);
 	if (!isInt(_number_of_user)) {
+		alert(" Please enter integers :) ");
 		document.getElementById('_count_of_prime').innerHTML = " Please enter integers :) ";
 		return;
 	}
