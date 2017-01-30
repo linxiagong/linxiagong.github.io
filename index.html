@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head lang="en">
+  <meta charset="UTF-8" />
+  <title>Primes number counting in a given range</title>
+  <meta property="browserRequirements" content="requires HTML5 support" />
+  <meta property="storageRequirements" content="Local Storage of browser" />
+  <meta property="countriesSupported" content="en" />
+  <meta property="applicationCategory" content="Data management" />
+  <meta property="creator" content="Linxia Gong" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <!-- Javascript -->
+  <script src="assets/js/sieve-of-eratosthenes.js"></script>
+  <script src="assets/js/primesieve.js"></script>
+  <script src="assets/js/primesieve-wrapper.js"></script>
+  <script src="assets/js/calculate.js"></script>
+
+
+  <!-- Header -->
+  <div class="container">
+    <div class="row header">
+      <div class="col-sm-4 logo">
+        <h1>Linxia Gong<span>.</span></h1>
+      </div>
+      <div class="col-sm-8 call-us">
+        <p>Tel: <span>0033 6 66 93 28 48</span> | Email: <span>linxia.gong@telecom-paristech.fr</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- calculate-->
+  <div class="calculate">
+    <div class="inner-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Prime-counting function</h2>
+            <p>An application to calculate the total number of primes smaller than a number you enter</p>
+
+            <form class="form-inline" role="form" method="post">
+              <div class="form-group">
+                <label class="sr-only" for="enter-the-number"></label>
+                  <input type="text" name="enter" placeholder="Enter your number..." class="enter-the-number" value="" id="_number_of_user">
+              </div>
+              <button type="button" class="btn" onclick="prime_counting()">Start to calculate</button>
+            </form>
+
+
+            <div class="success-message"></div>
+            <div class="error-message"></div>
+
+            <div class="result">
+              <div class="result-count-wrapper" id = "hidden" style = "display:none">
+                <span class="result-count" id = "_count_of_prime"></span>
+              </div>
+                
+            </div>
+                              
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
