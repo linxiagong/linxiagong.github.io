@@ -37,7 +37,7 @@ var primesieve = (function() {
        @default
        @see primesieve.raiseLimit
     */
-    var primesizelimit = 0x1000000; // 1 megabyte
+    var primesizelimit = 0x100000000; // ? megabyte
     /**
        A [2, 3, 5, 7, 11] wheel for factoring
        @memberof primesieve

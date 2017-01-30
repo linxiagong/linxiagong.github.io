@@ -145,7 +145,7 @@ body {
 }
 
 .result .result-count-wrapper {
-    width: 1000px;
+    width: 1200px;
     height: 100px;
     margin: 0 0px;
     background: #2d2d2d; /* browsers that don't support rgba */
@@ -161,6 +161,6 @@ body {
 }
 
 .result .result-count {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 90px;
 }
