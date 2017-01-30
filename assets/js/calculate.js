@@ -22,9 +22,7 @@ function prime_counting(){
 	//alert(_number_of_user);
 	
 	if (_number_of_user <= 1000000000) {
-		alert("small!!")
 		_count_of_prime = Primesieve(_number_of_user, smallNum);
-		//alert(_count_of_prime);
 		display_result(smallNum);
 	} else {
 		_count_of_prime = Primesieve(_number_of_user, largeNum);
