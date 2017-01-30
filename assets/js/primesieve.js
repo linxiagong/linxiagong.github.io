@@ -95,8 +95,9 @@ var primesieve = (function() {
        @private
     */
     var approx_pi = function(limit) {
-        // Math.ceil(5*x/(4*Math.log(x))) // would be more exact for large x
-        return Math.ceil((LN_113 * limit) / Math.log(limit)) + 2;
+        //return Math.ceil(5*x/(4*Math.log(x))); // would be more exact for large x
+        return Math.ceil( Number(limit)/ (Math.log(limit)-Number(1)) );
+        //return Math.ceil( (LN_113 * Number(limit)) / (Number(Math.log(limit))) + Number(2));
     };
     /**
        Upper limit of pi(x). Uses expansion of li(x)-li(2)

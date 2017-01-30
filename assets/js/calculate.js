@@ -19,15 +19,18 @@ function display_result(smallNum){
 function prime_counting(){
 	_count_of_prime = 0;
 	_number_of_user = document.getElementById('_number_of_user').value;
-
+	//alert(_number_of_user);
 	
 	if (_number_of_user <= 1000000000) {
+		alert("small!!")
 		_count_of_prime = Primesieve(_number_of_user, smallNum);
+		//alert(_count_of_prime);
+		display_result(smallNum);
 	} else {
 		_count_of_prime = Primesieve(_number_of_user, largeNum);
+		display_result(largeNum);
 	}
 	
 	
-	display_result(smallNum);
 }
 
