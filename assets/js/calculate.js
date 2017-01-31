@@ -4,6 +4,7 @@ var _count_of_prime;
 var smallNum = 1;
 var largeNum  = 0;
 var E_NOT_INT = -1;
+var E_TOO_SMALL = -2;
 
 var isInt = function(x) {
 	if (isNaN(x)) {
@@ -22,8 +23,10 @@ function display_result(state){
 		document.getElementById('_count_of_prime').innerHTML = "numbers of primes smaller than "+_number_of_user+" = "+_count_of_prime;
 	} else if(state == 0) {
 		document.getElementById('_count_of_prime').innerHTML = "number over 1 billion: estimated count for "+_number_of_user+" = "+_count_of_prime;
-	} else if (state == -1) {
+	} else if (state == E_NOT_INT) {
 		document.getElementById('_count_of_prime').innerHTML = " Please enter integers :) ";
+	} else if (state == E_TOO_SMALL) {
+		document.getElementById('_count_of_prime').innerHTML = "numbers of primes smaller than "+_number_of_user+" = 0";
 	}
 	
 }
@@ -34,6 +37,8 @@ function prime_counting(){
 	//alert(_number_of_user);
 	if (!isInt(_number_of_user)) {
 		display_result(E_NOT_INT);
+	}else if (_number_of_user <= 1) {
+		display_result(E_TOO_SMALL);
 	}else if (_number_of_user <= 1000000000) {
 		_count_of_prime = Primesieve(_number_of_user, smallNum);
 		display_result(smallNum);
