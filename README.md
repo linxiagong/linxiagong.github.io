@@ -11,7 +11,7 @@ I received the MA.Sc. degree in data science from Telecom ParisTech in 2017, and
 
 # News
 - <b>2020-03-16 (postponed to Summer):</b> I was invited to the 2020 Game Developers Conference (GDC 2020) in San Francisco, CA. [URL]
-
+- <b>2020-03-23:</b> I was invited by AICUG to give a talk about the Matchmaking system <em><游戏匹配系统的AI优化实践></em>. [\[URL\]](https://mp.weixin.qq.com/s/rPYfe2YYcTyUw2aSHjw_0g)
 
 # Publications
 - *Jianrong Tao, <strong>Linxia Gong</strong>. The AI Knows You Better Than Yourself: Mining Player Pursuits in Justice Online. The Game Developers Conference(GDC 2020)* [PDF] [URL] [DATA] [CODE]
