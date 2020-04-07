@@ -1,6 +1,24 @@
-title: Linxia GONG|巩琳霞
+theme: jekyll-theme-minimal
+
+# title of the website (displayed in the header)
+title: Linxia GONG<br>巩琳霞
+# logo picture
 logo:
 description: Senior R&D Engineer, <br> User Profiling Group, Fuxi AI Lab, Netease Inc.
-show_downloads: flase
-google_analytics:
-theme: jekyll-theme-minimal
+
+# Owner information
+owner_info:
+  owner_url: https://linxiagong.github.io/
+  linkedin: linxiagong
+  github: linxiagong
+  google_scholar:
+  email: gong_linxia@163.com
+  tel: (0086) 152 6701 8587
+  twitter:
+  instagram:
+  zhihu: linxiagong
+
+# Resume file path
+resume:
+  en:
+  cn:

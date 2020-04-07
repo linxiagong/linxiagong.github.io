@@ -1,0 +1,119 @@
+<!--Put all links in one line-->
+{% if site.owner_info %}<div style="padding-bottom: 10px">
+
+<!--{% if site.owner_info.owner_url %}-->
+<!--<a href="{{ site.owner_info.owner_url }}"><i class="fas fa-link fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.linkedin %}-->
+<!--<a href="https://www.linkedin.com/in/{{ site.owner_info.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.github %}-->
+<!--<a href="https://github.com/{{ site.owner_info.github }}"><i class="fab fa-github fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.google_scholar %}-->
+<!--<a href="https://scholar.google.fr/{{ site.owner_info.google_scholar }}" target="_blank"><i class="fab fa-google fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.zhihu %}-->
+<!--<a href="https://www.zhihu.com/people/{{ site.owner_info.zhihu }}" target="_blank"><i class="fab fa-zhihu fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.twitter %}-->
+<!--<a href="https://www.twitter.com/{{ site.owner_info.twitter }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.instagram %}-->
+<!--<a href="https://instagram.com/{{ site.owner_info.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.email %}-->
+<!--<a href="mailto:{{ site.owner_info.email }}"><i class="fas fa-envelope fa-2x">-->
+<!--</i></a>-->
+<!--{% endif %}-->
+
+{% if site.owner_info.linkedin %}
+<a href="https://www.linkedin.com/in/{{ site.owner_info.linkedin }}" target="_blank"><i class="fab fa-linkedin">
+    <div class="profile-link">{{ site.owner_info.linkedin }}</div>
+</i></a>
+{% endif %}
+
+{% if site.owner_info.email %}
+<br><a href="mailto:{{ site.owner_info.email }}"><i class="fas fa-envelope">
+    <div class="profile-link">{{site.owner_info.email}}</div>
+</i></a><br>
+{% endif %}
+
+{% if site.owner_info.tel %}
+<i class="fas fa-phone-square" style="pointer-events: none; color: #222;">
+    <div class="profile-link">{{site.owner_info.tel}}</div>
+</i><br>
+{% endif %}
+
+</div>{% endif %}
+
+<!--{% if site.owner_info %}-->
+<!--<div style="padding-bottom: 10px">-->
+<!--{% if site.owner_info.owner_url %}-->
+<!--<a href="{{ site.owner_info.owner_url }}"><i class="fas fa-link">-->
+<!--    <div class="profile-link">{{site.owner_info.owner_url}}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+
+
+<!--{% if site.owner_info.github %}-->
+<!--<a href="https://github.com/{{ site.owner_info.github }}"><i class="fab fa-github">-->
+<!--    <div class="profile-link">https://github.com/{{ site.owner_info.github }}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.google_scholar %}-->
+<!--<a href="https://scholar.google.com/{{ site.owner_info.google_scholar }}" target="_blank"><i class="fab fa-google">-->
+<!--    <div class="profile-link">https://scholar.google.com/{{ site.owner_info.google_scholar }}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.twitter %}-->
+<!--<a href="https://www.twitter.com/{{ site.owner_info.twitter }}" target="_blank"><i class="fab fa-twitter">-->
+<!--    <div class="profile-link">https://www.twitter.com/{{ site.owner_info.twitter }}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.instagram %}-->
+<!--<a href="https://instagram.com/{{ site.owner_info.instagram }}" target="_blank"><i class="fab fa-instagram">-->
+<!--    <div class="profile-link">https://instagram.com/{{ site.owner_info.instagram }}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.zhihu %}-->
+<!--<a href="https://www.zhihu.com/people/{{ site.owner_info.zhihu }}" target="_blank"><i class="fab fa-zhihu">-->
+<!--    <div class="profile-link">https://www.zhihu.com/people/{{ site.owner_info.zhihu }}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.email %}-->
+<!--<a href="mailto:{{ site.owner_info.email }}"><i class="fas fa-envelope">-->
+<!--    <div class="profile-link">{{site.owner_info.email}}</div>-->
+<!--</i></a><br>-->
+<!--{% endif %}-->
+
+<!--{% if site.owner_info.tel %}-->
+<!--<i class="fas fa-phone-square" style="pointer-events: none; color: #222;">-->
+<!--    <div class="profile-link">{{site.owner_info.tel}}</div>-->
+<!--</i><br>-->
+<!--{% endif %}-->
+<!--</div>-->
+<!--{% endif %}-->
+
+<!--Resume-->
+{% if site.resume %}
+<div style="padding-bottom: 10px">
+    <i class="fas fa-file-pdf" style="pointer-events: none; color: #222;"></i>
+    <div class="profile-link">Resume: <a href="{{site.resume.en}}">English</a> / <a href="{{site.resume.cn}}">中文简历</a></div>
+    <br>
+</div>
+{% endif %}
+
