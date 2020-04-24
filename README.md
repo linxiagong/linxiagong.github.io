@@ -15,8 +15,8 @@ I received the MA.Sc. degree in data science from Telecom ParisTech in 2017, and
 
 # Publications
 - *Jianrong Tao, <strong>Linxia Gong</strong>. The AI Knows You Better Than Yourself: Mining Player Pursuits in Justice Online. The Game Developers Conference(GDC 2020)* [PDF] [URL] [DATA] [CODE]
-- *Jianrong Tao, <strong>Linxia Gong</strong>, Changjie Fan, Longbiao Chen, Dezhi Ye and Sha Zhao. GMTL: A GART Based Multi-task Learning Model for Multi-Social-Temporal Prediction in Online Games. The 28th ACM International Conference on Information and Knowledge Management (CIKM 2019)* (CCF Rank: B)[\[PDF\]](http://pmo8329a2.pic44.websiteonline.cn/upload/GMTL__A_GART_Based_Multi_task_Learning_Model_for_Multi_Social_Temporal_Prediction_in_Online_Games__CIKM2019.pdf) [URL] [DATA] [CODE]
-- *Jianrong Tao, Jiarong Xu, <strong>Linxia Gong</strong>, Yifu Li, Changjie Fan, and Zhou Zhao. NGUARD: A Game Bot Detection Framework for NetEase MMORPGs. The 24th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2018)* (CCF Rank: A) [\[PDF\]](http://pmo8329a2.pic44.websiteonline.cn/upload/KDD2018.pdf) [\[URL\]](http://www.kdd.org/kdd2018/accepted-papers/view/nguard-a-game-bot-detection-framework-for-netease-mmorpgs) [DATA] [CODE]
+- *Jianrong Tao, <strong>Linxia Gong</strong>, Changjie Fan, Longbiao Chen, Dezhi Ye and Sha Zhao. GMTL: A GART Based Multi-task Learning Model for Multi-Social-Temporal Prediction in Online Games. The 28th ACM International Conference on Information and Knowledge Management (CIKM 2019)* (CCF Rank: B)[\[PDF\]](./myPapers/CIKM2019_GMTL.pdf) [URL] [DATA] [CODE]
+- *Jianrong Tao, Jiarong Xu, <strong>Linxia Gong</strong>, Yifu Li, Changjie Fan, and Zhou Zhao. NGUARD: A Game Bot Detection Framework for NetEase MMORPGs. The 24th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2018)* (CCF Rank: A) [\[PDF\]](./myPapers/KDD2018_NGUARD.pdf) [\[URL\]](http://www.kdd.org/kdd2018/accepted-papers/view/nguard-a-game-bot-detection-framework-for-netease-mmorpgs) [DATA] [CODE]
         
 # Projects
 We are releasing the tutorials on analysing your arenas and building up your ML-based matchmaking system... (under delivery) 
