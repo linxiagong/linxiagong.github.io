@@ -4,7 +4,7 @@
  * @Author: Linxia GONG 巩琳霞 (linxiagong@gmail.com)
  * @Date: 2020-07-22 14:16:28
  * @LastEditors: Linxia GONG 巩琳霞
- * @LastEditTime: 2022-02-19 21:58:36
+ * @LastEditTime: 2022-02-19 22:12:41
 -->
 # About Me
 I am a Reinforcement Learning Research Engineer at [Sea AI Lab](https://sail.sea.com/), Singapore, since 2021. 
@@ -14,7 +14,7 @@ I received the Master degree (Diplôme d'Ingénieur) from [Telecom ParisTech](ht
 
 <b>My research interests</b> 
 - Reinforcement Learning and Deep Learning
-- game AI
+- Game AI
 - Operations Research
 
 # Publications
