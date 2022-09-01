@@ -13,18 +13,21 @@ Before joining Sea AI Lab, I was a Research Engineer in the user profiling group
 I received the Master's degree (Diplôme d'Ingénieur) in Communication System Security from [Telecom Paris](https://www.telecom-paris.fr/en/home) in 2017, and the Bachelor's degree in [Control Science and Engineering](http://www.cse.zju.edu.cn/english/) from [Zhejiang University](https://www.zju.edu.cn/english/) in 2015.
 
 <b>My research interests</b> 
-- Reinforcement Learning and Deep Learning
-- Game AI
+- Reinforcement Learning and Game AI
 - Operations Research
+- Natural Language and Speech Processing
 
 # Publications
-- <b>Linxia Gong</b>, et al. *<strong>OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena.</strong> (KDD 2020)* [[PDF]](./myPapers/KDD2020_OptMatch.pdf) [[URL]](https://www.kdd.org/kdd2020/accepted-papers/view/optmatch-optimized-matchmaking-via-modeling-the-high-order-interactions-on-) [[DATA]](./OptMatch/data_analysis/) [[Github]](./OptMatch/)
+- <b>Linxia Gong</b>, et al. *<strong>OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena.</strong> (KDD 2020 oral)* [[PDF]](./myPapers/KDD2020_OptMatch.pdf) [[URL]](https://www.kdd.org/kdd2020/accepted-papers/view/optmatch-optimized-matchmaking-via-modeling-the-high-order-interactions-on-) [[DATA]](./OptMatch/data_analysis/) [[Github]](./OptMatch/)
 - Kai Wang, Hao Li, <b>Linxia Gong</b>, et al. *<strong>Match Tracing: A Unified Framework for Real-time Win Prediction and Quantifiable Performance Evaluation.</strong> (CIKM 2020)*
 - Jianrong Tao, <b>Linxia Gong</b>, et al. *<strong>GMTL: A GART Based Multi-task Learning Model for Multi-Social-Temporal Prediction in Online Games.</strong> (CIKM 2019)* (CCF Rank: B) [\[PDF\]](./myPapers/CIKM2019_GMTL.pdf)
 - Jianrong Tao, Jiarong Xu, <b>Linxia Gong</b>, et al. *<strong>NGUARD: A Game Bot Detection Framework for NetEase MMORPGs.</strong> (KDD 2018)* (CCF Rank: A) [\[PDF\]](./myPapers/KDD2018_NGUARD.pdf) [\[URL\]](http://www.kdd.org/kdd2018/accepted-papers/view/nguard-a-game-bot-detection-framework-for-netease-mmorpgs)
 
 # Presentations
+## Selected Talks
 - <strong>GDC2021 (2020-07-19)</strong> Find the Right Match: AI Enhanced Matchmaking Practice in Netease Games. [\[URL\]](https://schedule.gdconf.com/session/find-the-right-match-ai-enhanced-matchmaking-practice-in-netease-games/878302)
+- <strong>GDC2020 (2020-03-16)</strong> The AI Knows You Better Than Yourself: Mining Player Pursuits in Justice Online. 
+
+## Invited Talks
 - <strong>Zhejiang University lecture (2020-05-29)</strong> User Modeling and Anti-Cheat Detection in Games (CN)
-- <strong>GDC2020 (2020-03-16)</strong> The AI Knows You Better Than Yourself: Mining Player Pursuits in Justice Online. [URL]
 - <strong>AICUG live cast(2020-03-23)</strong> Utilize AI Algorithms in Matchmaking (CN). [\[URL\]](https://mp.weixin.qq.com/s/rPYfe2YYcTyUw2aSHjw_0g)
