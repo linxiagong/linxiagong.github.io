@@ -18,6 +18,11 @@
 {{ $fasIcons = $fasIcons | append (partial "utils/camelize" "fa-th-list") }}
 {{ $fasIcons = $fasIcons | append (partial "utils/camelize" "fa-user") }}
 {{ $fasIcons = $fasIcons | append (partial "utils/camelize" "fa-user-circle") }}
+{{ $fasIcons = $fasIcons | append (partial "utils/camelize" "fa-phone-alt") }}
+{{ $fasIcons = $fasIcons | append (partial "utils/camelize" "fa-file-pdf") }}
+{{ $fabIcons = $fabIcons | append (partial "utils/camelize" "fa-linkedin") }}
+{{ $fabIcons = $fabIcons | append (partial "utils/camelize" "fa-weixin") }}
+{{ $fabIcons = $fabIcons | append (partial "utils/camelize" "fa-whatsapp") }}
 
 {{/* authors */}}
 {{ range (.Site.GetPage "taxonomyTerm" "authors").Pages }}

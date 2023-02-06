@@ -55,7 +55,7 @@ module.exports = {
             "--tw-prose-body": theme("colors.secondary-text"),
             "--tw-prose-headings": theme("colors.primary-text"),
             "--tw-prose-lead": theme("colors.secondary-text"),
-            "--tw-prose-links": theme("colors.primary-text"),
+            "--tw-prose-links": theme("colors.secondary-text"),
             "--tw-prose-bold": theme("colors.primary-text"),
             "--tw-prose-counters": theme("colors.tertiary-text"),
             "--tw-prose-bullets": theme("colors.tertiary-text"),

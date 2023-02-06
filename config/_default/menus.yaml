@@ -5,6 +5,6 @@ main:
   - name: Posts
     url: /posts/
     weight: 2
-  - name: Projects
-    url: /projects/
-    weight: 3
+  # - name: Projects
+  #   url: /projects/
+  #   weight: 3

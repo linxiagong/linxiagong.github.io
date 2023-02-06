@@ -60,6 +60,7 @@
 {{- $eurekaJS := resources.Get "js/eureka.js" | resources.ExecuteAsTemplate "js/eureka.js" . | minify | fingerprint "sha384" }}
 <script defer src="{{ $eurekaJS.Permalink }}"></script>
 
+
 {{ $googleFonts := "" }}
 {{ range $index, $value := partial "utils/get-style-fonts" (dict "context" . "param" "googleFonts") }}
 {{ with $value }}
