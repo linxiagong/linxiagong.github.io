@@ -4,7 +4,7 @@ title: Eureka Demo
 # Uncomment when not installing with Hugo Modules
 # theme: eureka
 # Comment when not installing with Hugo Modules
-theme: eureka
+theme: wangchucheng.com/hugo-eureka
 # If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
 paginate: 3
